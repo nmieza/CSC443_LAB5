@@ -11,7 +11,10 @@
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'August', 'September', 'October', 'November', 'December');
     
     for($n=1; $n <= 11; $i++){
+
+        sort($month)
         echo $month[$i]. "\n"
+
     }
     ?>
 
