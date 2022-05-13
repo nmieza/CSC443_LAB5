@@ -16,6 +16,10 @@
         echo $month[$i]. "\n";
 
     }
+    
+    foreach($month as $value){
+        echo $value. "\n";
+    }
     ?>
 
 </body>
