@@ -13,7 +13,7 @@
     for($i=1; $i <= 11; $i++){
 
         sort($month);
-        echo $month[$i]. "\i";
+        echo $month[$i]. " ";
 
     }
     ?>
