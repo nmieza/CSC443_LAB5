@@ -12,7 +12,8 @@
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'August', 'September', 'October', 'November', 'December');
 
     for($i=1; $i<=11; $i++){
-        echo $month[$i]. " ";
+        sort($month);
+        echo $month[$i]. "\n";
 
     }
     ?>
