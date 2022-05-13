@@ -12,8 +12,8 @@
     
     for($n=1; $n <= 11; $i++){
 
-        sort($month)
-        echo $month[$i]. "\n"
+        sort($month);
+        echo $month[$i]. "\n";
 
     }
     ?>
