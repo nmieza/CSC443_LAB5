@@ -9,9 +9,9 @@
 <body>
     <?php 
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'August', 'September', 'October', 'November', 'December');
-    sort($month);
 
     for($i=1; $i <= 11; $i++){
+        sort($month);
         echo $month[$i]. "\n";
 
     }
