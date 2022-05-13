@@ -8,10 +8,9 @@
 </head>
 <body>
     <?php 
-    $i=0;
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'August', 'September', 'October', 'November', 'December');
 
-    for($i=1; $i<=11; $i++){
+    for($i=1; $i< count($month); $i++){
         sort($month);
         echo $month[$i]. "\n";
 
