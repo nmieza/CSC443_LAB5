@@ -24,6 +24,7 @@
     echo "The name of the shortest month is  ";
     $shortest_month = array_search ($shortest, $monthDays);
     echo $shortest_month;
+    echo "<br>";
 
     // total number of days in a year
     echo "Total number of days in a year is  ";
