@@ -22,7 +22,7 @@
 
     // the name of the shortest month
     echo "The name of the shortest month is  ";
-    $shortest_month = ($shortest, $monthDays);
+    $shortest_month = array_search ($shortest, $monthDays);
     echo $shortest_month;
 
     ?>
