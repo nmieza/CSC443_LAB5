@@ -24,14 +24,14 @@
     // the name of the shortest month
     echo "The name of the shortest month is  ";
     $shortest_month = array_search ($shortest, $monthDays);
-    echo $shortest_month. "days";
+    echo $shortest_month;
     echo "<br>";
     echo "<br>";
 
     // total number of days in a year
     echo "Total number of days in a year is  ";
     $total = array_sum($monthDays);
-    echo "$total";
+    echo "$total". "days";
 
     ?>
 </body>
