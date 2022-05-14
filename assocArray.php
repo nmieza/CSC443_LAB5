@@ -10,16 +10,17 @@
     <?php
     $monthDays = array('January' => 31, 'February' => 28, 'March' => 31, 'April' => 30, 'May' => 31, 'June' => 30, 
     'July' => 31, 'August' => 31, 'September' => 30, 'October' => 31, 'November' => 30, 'December' => 31);
-    foreach ($monthDays as $item => $days) {
-        echo $item . ":" . $days;
+    foreach ($monthDays as $value => $days) {
+        echo $value . ":" . $days;
         echo "<br>";
      }
      echo "<br>";
      echo "All the months with 30 day:";
-     foreach ($monthDays as $item => $days) {
+
+     foreach ($monthDays as $value => $days) {
          if($days == 30){
           echo "<br>";
-          echo $item;
+          echo $value;
          }
      }
     ?>
