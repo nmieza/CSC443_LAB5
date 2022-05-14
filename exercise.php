@@ -19,11 +19,13 @@
     $shortest = min($monthDays);
     echo ($shortest);
     echo "<br>";
+    echo "<br>";
 
     // the name of the shortest month
     echo "The name of the shortest month is  ";
     $shortest_month = array_search ($shortest, $monthDays);
     echo $shortest_month;
+    echo "<br>";
     echo "<br>";
 
     // total number of days in a year
