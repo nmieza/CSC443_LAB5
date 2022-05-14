@@ -16,7 +16,7 @@
 
     // the number of days in the shortest month
     echo "The number of the days in the shortest month is  ";
-    $shortest = min($monthDays);
+    $shortest = array_min($monthDays);
     echo ($shortest);
     echo "<br>";
 
