@@ -25,6 +25,11 @@
     $shortest_month = array_search ($shortest, $monthDays);
     echo $shortest_month;
 
+    // total number of days in a year
+    echo "Total number of days in a year is  ";
+    $total = sum($monthDays);
+    echo "$total";
+
     ?>
 </body>
 </html>
