@@ -31,7 +31,7 @@
     // total number of days in a year
     echo "Total number of days in a year is  ";
     $total = array_sum($monthDays);
-    echo "$total". "days";
+    echo "$total". " days";
 
     ?>
 </body>
